@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
@@ -16,6 +17,7 @@
     "core-js": "3.9.1",
     "tailwindcss": "2.0.4",
     "vue": "3.0.7",
+    "vue-loader": "15.9.8",
     "vue-router": "4.0.5"
   },
   "devDependencies": {
